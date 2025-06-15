@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "suho~oukR2KQa#XCOypItGtla89T0vqX3F3DLU8Q-HpZxj3emPD3fI1VU",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
@@ -33,10 +33,10 @@ module.exports = {
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     // make true if you want auto reply on status 
 
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴇᴇɴ ʙʏ ᴍᴇ 😆*",
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*😈sᴛᴀᴛᴜs sᴇᴇɴ ʙʏ ᴍᴇ 👁️‍🗨️👁️‍🗨️*",
     // set the auto reply message on status reply  
 
-    WELCOME: process.env.WELCOME || "true",
+    WELCOME: process.env.WELCOME || "false",
     // true if want welcome and goodbye msg in groups 
 
     ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
@@ -76,10 +76,10 @@ module.exports = {
     DELETE_LINKS: process.env.DELETE_LINKS || "false",
     // automatic delete links without removing member 
 
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "27813374457",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "255652398614",
     // add your bot owner number
 
-    OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
+    OWNER_NAME: process.env.OWNER_NAME || "*Nicolaus Daniel 2😈😈*",
     // add bot owner name
 
     DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ sᴜɴɢ sᴜʜᴏ*",
@@ -94,7 +94,7 @@ module.exports = {
     ANTI_BAD: process.env.ANTI_BAD || "false",
     // false or true for anti bad words  
 
-    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
     // make anti link true,false for groups 
 
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
@@ -103,7 +103,7 @@ module.exports = {
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
     // make true or false automatic text reply 
 
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     // make true for always online 
 
     PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
@@ -115,7 +115,7 @@ module.exports = {
     READ_CMD: process.env.READ_CMD || "false",
     // true if want mark commands as read  
 
-    DEV: process.env.DEV || "27813374457",
+    DEV: process.env.DEV || "255652398614",
     // replace with your whatsapp number  
 
     ANTI_VV: process.env.ANTI_VV || "true",
